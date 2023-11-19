@@ -1,0 +1,6 @@
+[proxy]
+key = ""
+
+[punishments]
+denied = "<red>Non puoi entrare con una VPN!"
+commands = ["ipban %player% VPN"] # Also supports %ip%

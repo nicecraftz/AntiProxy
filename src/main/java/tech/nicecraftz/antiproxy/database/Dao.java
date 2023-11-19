@@ -1,4 +1,4 @@
-package tech.nicecraftz.antiproxy.storage.database;
+package tech.nicecraftz.antiproxy.database;
 
 import java.util.concurrent.CompletableFuture;
 

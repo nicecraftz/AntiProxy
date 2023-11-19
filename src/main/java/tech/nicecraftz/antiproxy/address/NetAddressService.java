@@ -1,10 +1,9 @@
-package tech.nicecraftz.antiproxy.storage.memory;
+package tech.nicecraftz.antiproxy.address;
 
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import lombok.RequiredArgsConstructor;
-import tech.nicecraftz.antiproxy.address.NetAddress;
-import tech.nicecraftz.antiproxy.storage.database.Dao;
+import tech.nicecraftz.antiproxy.database.Dao;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
